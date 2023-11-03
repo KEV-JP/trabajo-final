@@ -1,0 +1,94 @@
+body{
+  background-image: url(../img/photo-1483401757487-2ced3fa77952.avif) ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #bfd2d9;
+}
+h1{
+  color: #bfd2d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    font-size: 30px;
+}
+input{
+  border-radius: 10px;
+  width: 400px;
+  height: 300px;
+}
+.login{
+  border-radius: 10px;
+  width: 420px;
+  height: 300px;
+  padding-left:10px ;
+  padding-right: 10px;
+  padding-top: 10px;
+  background-color:#131212;
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+
+}
+button{
+  background-color: #1e5777;
+  color:  #bfd2d9;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 15px;
+  width: 180px;
+}
+
+.employee-card{
+  position: relative;
+  background-color: #1e5777;
+  z-index: 2;
+  padding: 20px;
+  height: auto;
+  width: 400px;
+  border: 1px solid #003851;
+  margin-bottom: 15px;
+  border-radius: 20px;
+}
+.principal{
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  margin-top: -40px;
+}
+img{
+  padding: 10px;
+  border-radius: 100px;
+  width: 180px;
+  height: 100px;
+
+}
+.title{
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+/* .empleado-card{
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: #f9f9f9;
+} */
+
+/* .empleado-nombre{
+  font-size: 18px;
+  font-weight: bold;
+} */
+.employee-name{
+  background-color: aqua;
+}
+
+.empleado-area{
+  font-size: 14px;
+  color: #666;
+}
